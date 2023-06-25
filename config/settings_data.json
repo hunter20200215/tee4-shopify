@@ -1,0 +1,146 @@
+{
+  "current": {
+    "heading_color": "#5c5c5c",
+    "text_color": "#5c5c5c",
+    "background": "#ffffff",
+    "header_background": "#ffffff",
+    "footer_background": "#ffffff",
+    "footer_text_color": "#939393",
+    "heading_font": "cardo_n4",
+    "text_font": "century_gothic_n4",
+    "show_page_transition": true,
+    "color_swatch_config": "",
+    "cart_type": "drawer",
+    "cart_free_shipping_threshold": "50",
+    "social_facebook": "",
+    "social_instagram": "",
+    "social_linkedin": "",
+    "favicon": "shopify:\/\/shop_images\/Dollinger-Favicon.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_accent_color": "#004033",
+    "checkout_button_color": "#004033",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Dollinger_Logo_grun_150dpi_c5ae43d9-1673-4347-b960-148108ec82e3.png",
+          "logo_max_width": 195,
+          "show_icons": false,
+          "show_locale_selector": true,
+          "transparent_logo": "shopify:\/\/shop_images\/Dollinger_Logo_grun_150dpi_c5ae43d9-1673-4347-b960-148108ec82e3.png"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "About the shop",
+              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2"
+        ],
+        "settings": {
+          "show_locale_selector": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Allure": {
+      "section_vertical_spacing": "md",
+      "heading_color": "#1c1c1c",
+      "text_color": "#1c1c1c",
+      "background": "#efefef",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#1c1c1c",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1c1c1c",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#1c1c1c",
+      "primary_button_background": "#1c1c1c",
+      "primary_button_text_color": "#ffffff",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "univers_next_n4",
+      "heading_letter_spacing": 18,
+      "text_font": "univers_next_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 18
+    },
+    "Couture": {
+      "section_vertical_spacing": "md",
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "background": "#ffffff",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#303030",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#303030",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#303030",
+      "primary_button_background": "#5c5c5c",
+      "primary_button_text_color": "#ffffff",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "futura_n4",
+      "heading_letter_spacing": 18,
+      "text_font": "century_gothic_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 18
+    },
+    "Vogue": {
+      "section_vertical_spacing": "xs",
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "background": "#ffffff",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#303030",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#303030",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#303030",
+      "primary_button_background": "#f5db8b",
+      "primary_button_text_color": "#303030",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_letter_spacing": 18,
+      "text_font": "futura_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 18
+    }
+  }
+}
