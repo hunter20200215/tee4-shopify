@@ -1,12 +1,13 @@
 {
   "current": {
-    "heading_color": "#5c5c5c",
+    "heading_color": "#000000",
     "text_color": "#5c5c5c",
     "background": "#ffffff",
     "header_background": "#ffffff",
     "footer_background": "#ffffff",
     "footer_text_color": "#939393",
-    "heading_font": "cardo_n4",
+    "primary_button_background": "#156eda",
+    "heading_font": "helvetica_n4",
     "text_font": "century_gothic_n4",
     "show_page_transition": true,
     "color_swatch_config": "",

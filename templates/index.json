@@ -7,9 +7,179 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "b0e3ce68-b6eb-4689-837c-54a976906d98": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19540338704675__b0e3ce68-b6eb-4689-837c-54a976906d98-1687714832b559db57-0": {
+          "type": "heading",
+          "settings": {
+            "text": "tees 4",
+            "heading_tag": "h3"
+          }
+        },
+        "09e314cf-26aa-49c5-9691-6b41d254f9e4": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Design custom printing shirts & more<\/strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "1e8b3ee8-0422-4346-92e3-a47865e85c9c": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Browser Products",
+            "url": "shopify:\/\/collections",
+            "background": "#156eda",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--19540338704675__b0e3ce68-b6eb-4689-837c-54a976906d98-1687714832b559db57-0",
+        "09e314cf-26aa-49c5-9691-6b41d254f9e4",
+        "1e8b3ee8-0422-4346-92e3-a47865e85c9c"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/home-header-cover.webp",
+        "allow_transparent_header": true,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#fafafa",
+        "overlay_opacity": 61
+      }
+    },
+    "bafe4731-f6ac-4eab-ae4a-6f32e942961e": {
+      "type": "logo-list",
+      "blocks": {
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/PNC.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Zingermans.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Google.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Amazon.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/AMA.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "d8483de1-1fc7-4289-9fce-7489b2c7137e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Dominos.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-0",
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-1",
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-2",
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-3",
+        "template--19540338704675__bafe4731-f6ac-4eab-ae4a-6f32e942961e-1687780186c93b48a2-4",
+        "d8483de1-1fc7-4289-9fce-7489b2c7137e"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "TRUSTED BY THOUSANDS OF BUSINESSES",
+        "items_per_row": 6,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "5cc1f50e-298c-4979-8194-8ede45497474": {
+      "type": "logo-list",
+      "blocks": {
+        "template--19540338704675__5cc1f50e-298c-4979-8194-8ede45497474-1687780186c93b48a2-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/YWCA.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--19540338704675__5cc1f50e-298c-4979-8194-8ede45497474-1687780186c93b48a2-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/PGA.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "8c5fe383-5cbd-4eb2-bd5b-ca747b6c3631": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Poshmark.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--19540338704675__5cc1f50e-298c-4979-8194-8ede45497474-1687780186c93b48a2-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Target.webp",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19540338704675__5cc1f50e-298c-4979-8194-8ede45497474-1687780186c93b48a2-1",
+        "template--19540338704675__5cc1f50e-298c-4979-8194-8ede45497474-1687780186c93b48a2-3",
+        "8c5fe383-5cbd-4eb2-bd5b-ca747b6c3631",
+        "template--19540338704675__5cc1f50e-298c-4979-8194-8ede45497474-1687780186c93b48a2-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "items_per_row": 6,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
-    "1631172313f2ff7bcb"
+    "1631172313f2ff7bcb",
+    "b0e3ce68-b6eb-4689-837c-54a976906d98",
+    "bafe4731-f6ac-4eab-ae4a-6f32e942961e",
+    "5cc1f50e-298c-4979-8194-8ede45497474"
   ]
 }

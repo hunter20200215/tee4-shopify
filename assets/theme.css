@@ -4687,7 +4687,7 @@ tfoot td {
   display: grid;
   position: relative;
 }
-.header .block.h6{
+.header .h6{
   position: relative;
   display: block;
   font-size: 15px !important;
@@ -5022,7 +5022,34 @@ tfoot td {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   display: grid;
 }
-
+.content-over-media.content-over-media--auto{
+  height: 500px !important;
+}
+.content-over-media.content-over-media--auto .prose p.h3{
+  font-size: 1.9em;
+  font-weight: 300;
+  color: #000;
+  text-transform: uppercase;
+}
+.content-over-media.content-over-media--auto .prose .button{
+  padding: 20px 40px;
+  line-height: 1em;
+  position: relative;
+  font-size: x-large;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: #fff;
+  background: #156eda;
+  margin: 24px 0 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 4px 4px 6px #333;
+  width: 375px;
+}
+.content-over-media.content-over-media--auto .prose .button:hover{
+  background: #328fff;
+  box-shadow: none;
+}
 @media screen and (max-width: 699px) {
   .predictive-search__suggestions {
     grid: auto / auto-flow max-content;
