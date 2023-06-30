@@ -2,11 +2,273 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "1b5a5fd6-ed83-4345-8183-8c48519d62b6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19540339097891__1b5a5fd6-ed83-4345-8183-8c48519d62b6-1687945476080f42e0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Welcome to TEES-4!",
+            "heading_tag": "h1"
+          }
+        },
+        "f059da1d-653a-4b1a-9cb5-fc3ef83db220": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At Tees-4, we are passionate about bringing your unique style to life through custom-designed shirts. We are a shirt-on-demand printing service based in [Your Location], and we take pride in delivering high-quality, one-of-a-kind garments to our customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19540339097891__1b5a5fd6-ed83-4345-8183-8c48519d62b6-1687945476080f42e0-1",
+        "f059da1d-653a-4b1a-9cb5-fc3ef83db220"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "bf032669-a202-45c8-b85d-7980fe4f0865": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19540339097891__bf032669-a202-45c8-b85d-7980fe4f0865-168794524001fa032c-0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19540339097891__bf032669-a202-45c8-b85d-7980fe4f0865-168794524001fa032c-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ugp_locations_map_shirts.webp",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19540339097891__bf032669-a202-45c8-b85d-7980fe4f0865-168794524001fa032c-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_3.png",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19540339097891__bf032669-a202-45c8-b85d-7980fe4f0865-168794524001fa032c-0",
+        "template--19540339097891__bf032669-a202-45c8-b85d-7980fe4f0865-168794524001fa032c-1",
+        "template--19540339097891__bf032669-a202-45c8-b85d-7980fe4f0865-168794524001fa032c-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "72dca1ad-a06f-40de-850a-8bca70adddf0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19540339097891__72dca1ad-a06f-40de-850a-8bca70adddf0-1687945476080f42e0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Story:",
+            "heading_tag": "h2"
+          }
+        },
+        "template--19540339097891__72dca1ad-a06f-40de-850a-8bca70adddf0-1687945476080f42e0-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Tees-4 was founded with the vision of providing individuals and businesses with the opportunity to express themselves through personalized apparel. We believe that fashion is more than just clothing—it's a form of self-expression and a way to showcase your personality. With this belief in mind, we set out to create a platform that empowers our customers to design their own shirts and bring their creative visions to reality.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19540339097891__72dca1ad-a06f-40de-850a-8bca70adddf0-1687945476080f42e0-1",
+        "template--19540339097891__72dca1ad-a06f-40de-850a-8bca70adddf0-1687945476080f42e0-2"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": true
+      }
+    },
+    "8952aa68-c616-4262-836f-168079ab9270": {
+      "type": "rich-text",
+      "blocks": {
+        "21f44a15-f696-45ad-8b1e-1077ec64add3": {
+          "type": "heading",
+          "settings": {
+            "text": "Quality and Craftsmanship:",
+            "heading_tag": "h2"
+          }
+        },
+        "161db2b3-fd82-48c5-8afa-dc4532254570": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We understand that when it comes to custom apparel, quality matters. That's why we have carefully curated a collection of premium fabrics and materials to ensure that every shirt we produce meets the highest standards. Our team of skilled artisans combines traditional craftsmanship with state-of-the-art printing technology to bring your designs to life with precision and vibrant colors. Each shirt is meticulously inspected to ensure it meets our stringent quality control measures before it's shipped to you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "21f44a15-f696-45ad-8b1e-1077ec64add3",
+        "161db2b3-fd82-48c5-8afa-dc4532254570"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": true
+      }
+    },
+    "c3db4410-db8b-4263-bec2-e5e8d5a39ab8": {
+      "type": "rich-text",
+      "blocks": {
+        "f77b8ef0-ff0f-4aca-8193-a668e4a77f89": {
+          "type": "heading",
+          "settings": {
+            "text": "Unleash Your Creativity:",
+            "heading_tag": "h2"
+          }
+        },
+        "87a8c36d-8a26-4470-a6ad-89bc4e5de62e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At Tees-4, we believe that everyone has a unique story to tell, and our goal is to help you share that story with the world. Whether you're a business looking to create custom uniforms or promotional merchandise, or an individual looking to make a fashion statement, we provide a user-friendly design tool that allows you to unleash your creativity. Choose from a range of design options, including graphics, text, and colors, to create a shirt that reflects your style and personality.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f77b8ef0-ff0f-4aca-8193-a668e4a77f89",
+        "87a8c36d-8a26-4470-a6ad-89bc4e5de62e"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": true
+      }
+    },
+    "c521f4cb-0675-4ea6-866f-05db79d7bd45": {
+      "type": "rich-text",
+      "blocks": {
+        "270f8b08-ebd8-4419-a24e-91560f3cd356": {
+          "type": "heading",
+          "settings": {
+            "text": "Exceptional Customer Experience:",
+            "heading_tag": "h2"
+          }
+        },
+        "c8530899-3f5b-4bbe-bbf6-124b4d82e5b7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We value our customers and strive to provide an exceptional shopping experience from start to finish. Our friendly and knowledgeable customer support team is here to assist you at every step of the process, from design consultation to order tracking. We are committed to ensuring your complete satisfaction and will go above and beyond to address any questions or concerns you may have.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "270f8b08-ebd8-4419-a24e-91560f3cd356",
+        "c8530899-3f5b-4bbe-bbf6-124b4d82e5b7"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": true
+      }
+    },
+    "1748c715-b052-4477-83ca-64c5e41fd587": {
+      "type": "rich-text",
+      "blocks": {
+        "78c84cf6-d6cc-43da-858e-cda0b919be3b": {
+          "type": "heading",
+          "settings": {
+            "text": "Join Our Community:",
+            "heading_tag": "h2"
+          }
+        },
+        "a9115493-4ff9-4baa-8a1a-ca968d27bdbb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We believe that fashion is a form of community-building, and we invite you to join our vibrant community of creators and enthusiasts. Connect with us on social media to stay up-to-date with the latest trends, promotions, and customer spotlights. We love seeing our customers rock their custom-designed shirts, so be sure to tag us in your posts for a chance to be featured!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "78c84cf6-d6cc-43da-858e-cda0b919be3b",
+        "a9115493-4ff9-4baa-8a1a-ca968d27bdbb"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": true
+      }
+    },
+    "d95c1fba-03cf-4ba7-9aa2-5b6f1066bf8c": {
+      "type": "rich-text",
+      "blocks": {
+        "10e11e6f-4326-4d52-8a81-7aa66bd00bd5": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        },
+        "b397967b-52d5-41e7-bd62-bc22de008286": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><\/p><p><\/p><p>Thank you for choosing Tees-4. We look forward to helping you express yourself through personalized shirts that make a statement. Start designing your unique apparel today and let your creativity shine!<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "10e11e6f-4326-4d52-8a81-7aa66bd00bd5",
+        "b397967b-52d5-41e7-bd62-bc22de008286"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1b5a5fd6-ed83-4345-8183-8c48519d62b6",
+    "bf032669-a202-45c8-b85d-7980fe4f0865",
+    "72dca1ad-a06f-40de-850a-8bca70adddf0",
+    "8952aa68-c616-4262-836f-168079ab9270",
+    "c3db4410-db8b-4263-bec2-e5e8d5a39ab8",
+    "c521f4cb-0675-4ea6-866f-05db79d7bd45",
+    "1748c715-b052-4477-83ca-64c5e41fd587",
+    "d95c1fba-03cf-4ba7-9aa2-5b6f1066bf8c"
   ]
 }

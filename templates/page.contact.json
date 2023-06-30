@@ -4,11 +4,17 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "show_title": true,
+        "page_width": "xs"
       }
     },
     "contact-form": {
       "type": "contact",
       "settings": {
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Contact Us",
+        "content": ""
       }
     }
   },

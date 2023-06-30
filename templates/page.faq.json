@@ -3,12 +3,6 @@
     "faq": {
       "type": "faq",
       "blocks": {
-        "category": {
-          "type": "category",
-          "settings": {
-            "title": "Order"
-          }
-        },
         "question-1": {
           "type": "question",
           "settings": {
@@ -29,15 +23,59 @@
             "question": "Any question?",
             "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
           }
+        },
+        "9e469bdf-4b4f-4ab4-b6cf-1f31acd2739d": {
+          "type": "question",
+          "settings": {
+            "question": "How much does it cost to make a custom t-shirt?",
+            "answer": "<p>The cost of a custom printed shirt depends primarily on 4 things:<\/p><ul><li>What kind of garment you are ordering<\/li><li>How many garments you're ordering<\/li><li>How many locations you want to print on<\/li><li>How many colors are printed on each location<\/li><\/ul>"
+          }
+        },
+        "228ce3b6-8288-4fc5-970c-ff09fe22e68b": {
+          "type": "question",
+          "settings": {
+            "question": "How can I pay for my order?",
+            "answer": "<p>You can pay for your order online at the time your order is placed via credit card or PayPal. We also accept business or personal checks, but cannot begin the order process until the check is received. If paying by check, please contact us at <a href=\"mailto:help@undergroundshirts.com\" target=\"_blank\">help@tees-4.com <\/a>before placing your order. Alternative means of payment (Paypal, ACH, Wire Transfer) may be permitted on a case by case basis, but are not guaranteed<\/p>"
+          }
+        },
+        "55297fa5-e34f-41df-9e75-614006c80e1e": {
+          "type": "question",
+          "settings": {
+            "question": "How do I get my shirts once they're printed?",
+            "answer": "<p>You can either have your shirts shipped right to you.<\/p>"
+          }
+        },
+        "b00d4fb7-1f83-4116-886a-a71e134b4328": {
+          "type": "question",
+          "settings": {
+            "question": "I don't know anything about graphic art, is that a problem?",
+            "answer": "<p>Not at all - you have options! First try our <a href=\"https:\/\/undergroundshirts.com\/pages\/design-printing-studio\">Design Studio<\/a> to start. Still can't figure out your design? Our in-house graphic art department can work with you to make your vision a reality. Whether you're working with vector-based artwork or a doodle on a napkin - we'll make sure you're happy with your shirts.<\/p>"
+          }
+        },
+        "f65dbf10-4702-409b-96ff-b235880672b7": {
+          "type": "question",
+          "settings": {
+            "question": "What's the difference between Screen printing and Digital Printing?",
+            "answer": "<p><strong>Screen printing<\/strong> involves creating a stencil, known as a screen, and then using that screen to apply ink on the printing surface (in our case, apparel or promotional products). Each individual color is applied using a different screen, one at a time, combined to achieve the final look. The more colors a design has, the more screens that are needed, and the more setup time required.<\/p><p>The ink in screen printing is applied thicker than digital printing, which results in brighter colors - even on darker shirts. Screen printing is the best option for designs that require a high level of vibrancy, specialty products, or for quantities greater than 6 pieces. While Underground Printing has no minimums for screen printing, price is usually a prohibitive factor under 6 pieces. Over 6 pieces, the per piece cost tends to be less than Digital printing (but not always).<\/p><p><strong>Digital printing<\/strong> is a much newer process that involves your artwork being processed by a computer, and then printed directly onto the surface of your product. Digital printing is not a transfer - the ink is directly adhered to the fabric of your shirt. The fact that the design is processed and printed digitally allows for a quantity of one, since there are no screens or physical setup.<\/p><p>Digital printing is best used for items that require large amounts of detail and\/or print colors, customers that require water based ink, and for orders of a smaller quantity (5 or less pieces). The fact that the digital printer does not use screens allows for a photographic print, with much more detail than traditional screen printing. As the ink is applied thinner (to achieve such detail), digital printing is best used on lighter colored shirts to allow the design to shine through.<\/p>"
+          }
         }
       },
       "block_order": [
-        "category",
         "question-1",
         "question-2",
-        "question-3"
+        "question-3",
+        "9e469bdf-4b4f-4ab4-b6cf-1f31acd2739d",
+        "228ce3b6-8288-4fc5-970c-ff09fe22e68b",
+        "55297fa5-e34f-41df-9e75-614006c80e1e",
+        "b00d4fb7-1f83-4116-886a-a71e134b4328",
+        "f65dbf10-4702-409b-96ff-b235880672b7"
       ],
       "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
       }
     }
   },

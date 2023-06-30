@@ -2,43 +2,71 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "2b9fd546-7dc1-4569-bbf1-058b7404b9fc": {
+      "type": "newsletter",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "sm",
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>SIGN UP<\/strong> for our weekly newsletter:<\/p>",
+        "button_text": "Subscribe",
+        "text_color": "#1c1c1c",
+        "button_background": "",
+        "button_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
+        "c07ae404-9314-4e55-ad27-103dc318222b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_4a9c0d60-4c13-4f73-a171-173a21c78f33.png",
+            "image_width": 130,
+            "link": "\/"
+          }
+        },
         "footer-0": {
           "type": "text",
           "settings": {
-            "title": "About the shop",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
-            "enable_follow_on_shop": true
+            "title": "<strong>About the shop<\/strong>",
+            "content": "<ul><li><a href=\"\/pages\/about-us\" title=\"About Us\">About Us<\/a><\/li><li><a href=\"\/pages\/policies-and-faqs\" title=\"Policies and FAQs\">Policies<\/a><\/li><li><a href=\"\/pages\/faqs\" title=\"FAQs\">FAQs<\/a><\/li><\/ul>",
+            "enable_follow_on_shop": false
           }
         },
-        "footer-1": {
-          "type": "links",
+        "0c036925-d81e-44de-9490-82d60aa6b63d": {
+          "type": "text",
           "settings": {
-            "menu": "footer",
-            "show_menu_title": true
+            "title": "<a href=\"\/pages\/contact\" title=\"Contact\">Contact Us<\/a>",
+            "content": "<p>Call Us:<\/p><p>+1 913 702-4532<\/p><p>Email Us:<\/p><p>help@tees-4.com<\/p>",
+            "enable_follow_on_shop": false
           }
         },
-        "footer-2": {
-          "type": "newsletter",
+        "b20d74d9-88cb-4fec-a32e-d6f94b53bd09": {
+          "type": "text",
           "settings": {
-            "title": "Newsletter",
-            "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>",
-            "button_background": "",
-            "button_text_color": ""
+            "title": "<strong>Browser<\/strong>",
+            "content": "<ul><li><a href=\"\/collections\/all\" title=\"All products\">All Products<\/a><\/li><li><a href=\"\/collections\" title=\"All collections\">Collections<\/a><\/li><\/ul>",
+            "enable_follow_on_shop": false
           }
         }
       },
       "block_order": [
+        "c07ae404-9314-4e55-ad27-103dc318222b",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "0c036925-d81e-44de-9490-82d60aa6b63d",
+        "b20d74d9-88cb-4fec-a32e-d6f94b53bd09"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "show_social_media": true,
-        "show_payment_icons": true,
+        "show_payment_icons": false,
         "show_country_selector": true,
         "show_country_name": true,
         "show_country_flag": true,
@@ -47,6 +75,7 @@
     }
   },
   "order": [
+    "2b9fd546-7dc1-4569-bbf1-058b7404b9fc",
     "footer"
   ]
 }

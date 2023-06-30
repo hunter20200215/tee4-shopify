@@ -157,9 +157,9 @@
               {%- render 'localization-selector', type: 'locale', placement: 'top-start' -%}
             {%- endif -%}
           </div>
-        {%- endif -%}
+        {%- endif -%} 
 
-        <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} - {{ shop.name }} {{ powered_by_link }}</p>
+        {% comment %} <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} - {{ shop.name }} {{ powered_by_link }}</p> {% endcomment %}
 
         {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
           <div class="payment-methods">
@@ -171,6 +171,10 @@
       </div>
     </div>
   </div>
+</div>
+<div class="footer-bottom-text">
+  <p class="heading text-subdued text-xxs">Copyright © {{ 'now' | date: '%Y' }} - {{ shop.name }} All Rights Reserved.   {{ powered_by_link }}</p>
+  <p class="heading text-subdued text-xxs">Address: 1255 Northwest Eagle Ridge Boulevard, Grain Valley Missouri 64029, United States</p>
 </div>
 
 {% schema %}

@@ -52,7 +52,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#000000",
         "overlay_color": "#fafafa",
-        "overlay_opacity": 61
+        "overlay_opacity": 15
       }
     },
     "bafe4731-f6ac-4eab-ae4a-6f32e942961e": {
@@ -174,12 +174,290 @@
         "logo_item_background": "",
         "logo_item_border": ""
       }
+    },
+    "27de0295-57cd-4e0f-b0a2-8339bce87002": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19540338704675__27de0295-57cd-4e0f-b0a2-8339bce87002-16878037729cd5a20b-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "hockey",
+            "expand_collection": true,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "Hockey Shirts",
+            "button_text": "View products",
+            "button_link": "shopify:\/\/collections\/hockey",
+            "text_color": "#ffffff",
+            "overlay_color": "#1c1c1c",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--19540338704675__27de0295-57cd-4e0f-b0a2-8339bce87002-16878037729cd5a20b-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "holidays",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "Holidays Shirts",
+            "button_text": "View products",
+            "button_link": "shopify:\/\/collections\/holidays",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--19540338704675__27de0295-57cd-4e0f-b0a2-8339bce87002-16878037729cd5a20b-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "cruises",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "Cruises Shirts",
+            "button_text": "View products",
+            "button_link": "shopify:\/\/collections\/cruises",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19540338704675__27de0295-57cd-4e0f-b0a2-8339bce87002-16878037729cd5a20b-0",
+        "template--19540338704675__27de0295-57cd-4e0f-b0a2-8339bce87002-16878037729cd5a20b-1",
+        "template--19540338704675__27de0295-57cd-4e0f-b0a2-8339bce87002-16878037729cd5a20b-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Our Featured collections",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "83be5b13-e7c3-4d8e-a0a7-63fc108bf033": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "template--19540338704675__83be5b13-e7c3-4d8e-a0a7-63fc108bf033-168781140210c08f40-0": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Great products and great service. Thank you so much for all your help with the ordering, designing, and distribution process!<\/p>",
+            "image": "shopify:\/\/shop_images\/Dejan-big.jpg",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "DEJAN"
+          }
+        },
+        "template--19540338704675__83be5b13-e7c3-4d8e-a0a7-63fc108bf033-168781140210c08f40-1": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>WONDERFUL! Jessica was the best! She answered all our questions and was very timely. Jessica made this process smooth and worry-free. Everyone loved the items and design. We will continue to be a fan of UGP because of people like Jessica!<\/p>",
+            "image": "shopify:\/\/shop_images\/profile_-_Copy.png",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "SAUHARD"
+          }
+        },
+        "template--19540338704675__83be5b13-e7c3-4d8e-a0a7-63fc108bf033-168781140210c08f40-2": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Very quick and friendly service! We are always happy with the final product from TEES-4 Printing!!<\/p>",
+            "image": "shopify:\/\/shop_images\/IMG_0352.jpg",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "LEONID"
+          }
+        }
+      },
+      "block_order": [
+        "template--19540338704675__83be5b13-e7c3-4d8e-a0a7-63fc108bf033-168781140210c08f40-0",
+        "template--19540338704675__83be5b13-e7c3-4d8e-a0a7-63fc108bf033-168781140210c08f40-1",
+        "template--19540338704675__83be5b13-e7c3-4d8e-a0a7-63fc108bf033-168781140210c08f40-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "REAL REVIEWS FROM OUR CUSTOMERS",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "7c0c1d75-40d5-4a18-873e-15181286de5e": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_4.png",
+            "title": "Dejan Pajic",
+            "heading_tag": "h3",
+            "content": "<p>I ordered printed t-shirts. It was really easy to do so with Austin's help, order moved very smoothly.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_5.png",
+            "title": "Mohamad",
+            "heading_tag": "h3",
+            "content": "<p>Great products and great service. Thank you so much for all your help with the ordering, designing, and distribution process!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0352.jpg",
+            "title": "Leonid Spravko",
+            "heading_tag": "h3",
+            "content": "<p>Very quick and friendly service! We are always happy with the final product from TEES-4 Printing!!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-0",
+        "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-1",
+        "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "REAL REVIEWS FROM OUR CUSTOMERS",
+        "content": ""
+      }
+    },
+    "abeeae91-c29a-4d6f-b73e-e3df3e80fd2f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19540338704675__abeeae91-c29a-4d6f-b73e-e3df3e80fd2f-1687817729aa90e412-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19540338704675__abeeae91-c29a-4d6f-b73e-e3df3e80fd2f-1687817729aa90e412-1": {
+          "type": "heading",
+          "settings": {
+            "text": "DESIGN CUSTOM SHIRTS ONLINE",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19540338704675__abeeae91-c29a-4d6f-b73e-e3df3e80fd2f-1687817729aa90e412-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>With TEES-4 Printing's Design Studio, it's easy to design shirts online! You can design your own shirt, or use our experienced custom apparel designers for your business, organization, or event, many with no minimums.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19540338704675__abeeae91-c29a-4d6f-b73e-e3df3e80fd2f-1687817729aa90e412-0",
+        "template--19540338704675__abeeae91-c29a-4d6f-b73e-e3df3e80fd2f-1687817729aa90e412-1",
+        "template--19540338704675__abeeae91-c29a-4d6f-b73e-e3df3e80fd2f-1687817729aa90e412-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/DesignStudioGraphic.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19540338704675__563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c-1687811989f74baa75-0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ugp_locations_map_shirts.webp",
+            "title": "Store Locations",
+            "heading_tag": "h3",
+            "content": "<p>Find the UGP store closest to you<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19540338704675__563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c-1687811989f74baa75-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "title": "featured product",
+            "heading_tag": "h3",
+            "content": "<p>Check out this month's featured item!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "template--19540338704675__563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c-1687811989f74baa75-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_3.png",
+            "title": "Fast Delivery",
+            "heading_tag": "h3",
+            "content": "<p>2-DAY LIGHTNING RUSH DELIVERY!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19540338704675__563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c-1687811989f74baa75-0",
+        "template--19540338704675__563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c-1687811989f74baa75-1",
+        "template--19540338704675__563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c-1687811989f74baa75-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "----- 100% SATISFACTION GUARANTEED -----",
+        "content": ""
+      }
     }
   },
   "order": [
     "1631172313f2ff7bcb",
     "b0e3ce68-b6eb-4689-837c-54a976906d98",
     "bafe4731-f6ac-4eab-ae4a-6f32e942961e",
-    "5cc1f50e-298c-4979-8194-8ede45497474"
+    "5cc1f50e-298c-4979-8194-8ede45497474",
+    "27de0295-57cd-4e0f-b0a2-8339bce87002",
+    "83be5b13-e7c3-4d8e-a0a7-63fc108bf033",
+    "7c0c1d75-40d5-4a18-873e-15181286de5e",
+    "abeeae91-c29a-4d6f-b73e-e3df3e80fd2f",
+    "563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c"
   ]
 }
