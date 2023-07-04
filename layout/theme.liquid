@@ -8,7 +8,9 @@
     <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
 
     {%- if page_description -%}
-      <meta name="description" content="{{ page_description | escape }}">
+      <meta name="description" content="{{ page_description | blank | 'Discover a wide range of print-on-demand shirts at Tees-4. Our collection offers customized designs for every style, ensuring you stand out with unique apparel. Browse our selection now and express your individuality with high-quality shirts designed just for you.' }}">
+    {%- else -%}
+      <meta name="description" content="Discover a wide range of print-on-demand shirts at Tees-4. Our collection offers customized designs for every style, ensuring you stand out with unique apparel. Browse our selection now and express your individuality with high-quality shirts designed just for you.">
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">

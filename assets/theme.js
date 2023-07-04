@@ -1058,7 +1058,7 @@ _preloadImages = new WeakSet();
 preloadImages_fn = function() {
   const previousSlide = this.cells[(this.selectedIndex - 1 + this.cells.length) % this.cells.length], nextSlide = this.cells[(this.selectedIndex + 1 + this.cells.length) % this.cells.length];
   [previousSlide, this.selectedCell, nextSlide].forEach((item) => {
-    Array.from(item.querySelectorAll('img[loading="lazy"]')).forEach((img) => img.setAttribute("loading", "eager"));
+    // Array.from(item.querySelectorAll('img[loading="lazy"]')).forEach((img) => img.setAttribute("loading", "eager"));
     Array.from(item.querySelectorAll('video[preload="none"]')).forEach((video) => video.setAttribute("preload", "metadata"));
   });
 };
@@ -1387,7 +1387,7 @@ _preloadImages2 = new WeakSet();
 preloadImages_fn2 = function() {
   const previousSlide = this.cells[Math.max(this.selectedIndex - 1, 0)], nextSlide = this.cells[Math.min(this.selectedIndex + 1, this.cells.length - 1)];
   [previousSlide, this.selectedCell, nextSlide].filter((item) => item !== null).forEach((item) => {
-    Array.from(item.querySelectorAll('img[loading="lazy"]')).forEach((img) => img.setAttribute("loading", "eager"));
+    // Array.from(item.querySelectorAll('img[loading="lazy"]')).forEach((img) => img.setAttribute("loading", "eager"));
     Array.from(item.querySelectorAll('video[preload="none"]')).forEach((video) => video.setAttribute("preload", "metadata"));
   });
 };

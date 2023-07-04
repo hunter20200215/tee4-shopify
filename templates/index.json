@@ -43,7 +43,7 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/home-header-cover.webp",
+        "image": "shopify:\/\/shop_images\/home-header-cover_db46e403-21ca-4763-82e5-2b647c41681c.webp",
         "allow_transparent_header": true,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -307,7 +307,7 @@
         "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-0": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_4.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_4.jpg",
             "title": "Dejan Pajic",
             "heading_tag": "h3",
             "content": "<p>I ordered printed t-shirts. It was really easy to do so with Austin's help, order moved very smoothly.<\/p>",
@@ -318,7 +318,7 @@
         "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_5.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_5.jpg",
             "title": "Mohamad",
             "heading_tag": "h3",
             "content": "<p>Great products and great service. Thank you so much for all your help with the ordering, designing, and distribution process!<\/p>",
@@ -329,7 +329,7 @@
         "template--19540338704675__7c0c1d75-40d5-4a18-873e-15181286de5e-1687811989f74baa75-2": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0352.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_0352_02498ead-4737-4e40-9aaa-191ef36b6ec3.jpg",
             "title": "Leonid Spravko",
             "heading_tag": "h3",
             "content": "<p>Very quick and friendly service! We are always happy with the final product from TEES-4 Printing!!<\/p>",
@@ -410,7 +410,7 @@
         "template--19540338704675__563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c-1687811989f74baa75-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_1.webp",
             "title": "featured product",
             "heading_tag": "h3",
             "content": "<p>Check out this month's featured item!<\/p>",
@@ -421,7 +421,7 @@
         "template--19540338704675__563c6cd1-e1ff-4ca4-b9ba-07ba28ab329c-1687811989f74baa75-2": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_3.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_3.webp",
             "title": "Fast Delivery",
             "heading_tag": "h3",
             "content": "<p>2-DAY LIGHTNING RUSH DELIVERY!<\/p>",
